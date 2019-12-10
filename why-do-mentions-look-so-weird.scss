@@ -1,0 +1,33 @@
+.blockquoteContainer-U5TVEi
+{
+    blockquote
+    {
+        background: var(--activity-card-background) !important;
+        border-radius: 0 10px 10px 0 !important;
+        padding: 10px !important;
+        box-shadow: var(--elevation-low) !important;
+    }
+    .blockquoteDivider-2hH8H6
+    {
+        width: 10px !important;
+        border-radius: 10px 0 0 10px !important;
+        background: var(--background-floating) !important;
+        box-shadow: var(--elevation-low) !important;
+    }
+}
+.contentCozy-3XX413
+{
+    .isMentionedCozy-3isp7y
+    {
+        border-radius: 0 10px 10px 0 !important;
+        box-shadow: var(--elevation-high) !important;
+    }
+    .isMentionedCozy-3isp7y:after
+    {
+        width: 10px !important;
+        border-radius: 10px 0 0 10px !important;
+        background: #faa61a !important;
+        border: none !important;
+        left: -10px !important;
+    }
+}
