@@ -1,16 +1,21 @@
+:root
+{
+    --roundybs: 10px;
+    --widthb: var(--roundybs);
+}
 .blockquoteContainer-U5TVEi
 {
     blockquote
     {
         background: var(--activity-card-background) !important;
-        border-radius: 0 10px 10px 0 !important;
+        border-radius: 0 var(--roundybs) var(--roundybs) 0 !important;
         padding: 10px !important;
         box-shadow: var(--elevation-low) !important;
     }
     .blockquoteDivider-2hH8H6
     {
-        width: 10px !important;
-        border-radius: 10px 0 0 10px !important;
+        width: var(--widthb) !important;
+        border-radius: var(--roundybs) 0 0 var(--roundybs) !important;
         background: var(--background-floating) !important;
         box-shadow: var(--elevation-low) !important;
     }
@@ -19,15 +24,15 @@
 {
     .isMentionedCozy-3isp7y
     {
-        border-radius: 0 10px 10px 0 !important;
+        border-radius: 0 var(--roundybs) var(--roundybs) 0 !important;
         box-shadow: var(--elevation-high) !important;
     }
     .isMentionedCozy-3isp7y:after
     {
-        width: 10px !important;
-        border-radius: 10px 0 0 10px !important;
+        width: var(--widthb) !important;
+        border-radius: var(--roundybs) 0 0 var(--roundybs) !important;
         background: #faa61a !important;
         border: none !important;
-        left: -10px !important;
+        left: -var(--widthb) !important;
     }
 }
