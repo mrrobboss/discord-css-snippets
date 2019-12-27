@@ -1,0 +1,25 @@
+.mask-1l8v16 foreignObject
+{
+    mask: none !important;
+    border-radius: var(--bruhround) !important;
+}
+.mask-1l8v16 img
+{
+    border-radius: 10px !important;
+    z-index: 1000 !important;
+}
+.pointerEvents-2zdfdO
+{
+    mask: none !important;
+    rx: calc(var(--bruhround)/5);
+}
+.avatarHint-1qgaV3 foreignObject
+{
+    mask: none !important;
+    border-radius: var(--bruhround) !important;
+}
+:root
+{
+    --bruhround: 10px;
+}
+/* very proffesoinal yes*/
