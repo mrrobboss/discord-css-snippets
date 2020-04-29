@@ -1,0 +1,43 @@
+@keyframes bruh {
+  0%{background-position:2% 0%}
+  50%{background-position:99% 100%}
+  100%{background-position:2% 0%}
+}
+:root {
+  --margin: 5px;
+  --rounded-corners: 7px;
+  --color1: #00ff00;
+  --color2: #0000ff;
+  --degree: 10deg;
+  --animationDuration: 7s;
+  --titlebarOpacity: 0.6; /* scale 0 to 1 */
+}
+.app-2rEoOp{
+  margin: var(--margin);
+  border-radius: var(--rounded-corners);
+  overflow: hidden;
+  box-shadow: var(--elevation-high);
+}
+.app-1q1i1E {
+  background: none;
+}
+.appMount-3lHmkl {
+  background: linear-gradient(var(--degree), var(--color1), var(--color2));
+  background-size: 300% 300%;
+  animation: bruh var(--animationDuration) ease-in-out infinite;
+}
+.withFrame-haYltI {
+  margin-top: 0 !important;
+  padding-top: 4px;
+}
+.titleBar-AC4pGV {
+  background: rgba(0,0,0,var(--titlebarOpacity));
+}
+.guilds-1SWlCJ
+{
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.wordmarkWindows-1v0lYD {
+  color: #999999;
+}
