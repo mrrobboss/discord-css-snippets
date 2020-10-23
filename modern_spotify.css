@@ -1,92 +1,90 @@
-.powercord-spotify, .powercord-spotify * {
-    transition: 0.4s ease-in-out;
-}
 .powercord-spotify {
-    height: 60px;
-    width: 224px;
-    background: var(--background-floating);
-    margin-left: 8px;
-    margin-bottom: 8px;
-    border-radius: 10px;
-}
-.powercord-spotify .spotify-seek-bar {
-    height: 6px !important;
-    border-radius: 10px !important;
-}
-.powercord-spotify .spotify-seek {
-    border-radius: 10px !important;
-    overflow: hidden;
-}
-.powercord-spotify .container-3baos1 {
-    background: none;
-    margin-top: 8px;
+  background: var(--background-floating) !important;
+  border-radius: 10px;
+  margin: 5px;
+  overflow: hidden !important;
+  width: 230px !important;
+  height: 60px !important;
 }
 .powercord-spotify:hover {
-    height: 237px;
+  height: 230px !important;
+}
+.powercord-spotify .spotify-seek {
+  position: relative !important;
+  height: 20px !important;
+  z-index: 99;
+}
+.powercord-spotify:hover .spotify-seek {
+  position: relative !important;
+  background: background: rgb(24,25,28);
+background: linear-gradient(0deg, rgba(24,25,28,1) 0%, rgba(24,25,28,1) 50%, rgba(24,25,28,0) 97%); !important;
+  padding-top: 80px;
+  height: 20px !important;
+  width: 230px !important;
+  left: 0px !important;
+  bottom: -71px !important;
+}
+.powercord-spotify .spotify-seek-bar {
+  height: 10px !important;
+  background: var(--background-floating);
 }
 .powercord-spotify:hover .spotify-seek-bar {
-    height: 10px !important;
+  height: 20px !important;
 }
-.powercord-spotify:hover .container-3baos1 {
-    background: none;
-    height: 200px;
+.powercord-spotify{
+  transition: 0.4s ease-in-out !important;
 }
-.spotify-seek-bar-cursor {
-    background: #fff !important;
-    border: none !important;
-    height: 10px !important;
-    border-radius: 5px !important;
-    width: 5px !important;
+.powercord-spotify * {
+  transition: 0.4s ease-in-out !important;
+}
+.powercord-spotify .avatarWrapper-2yR4wp img {
+  border-radius: 5px !important;
 }
 .powercord-spotify:hover .avatarWrapper-2yR4wp img {
-    border-radius: 0px !important;
-    height: 200px !important;
-    width: 224px !important;
-    background-size: contain !important;
+  border-radius: 0px !important;
+  height: 230px !important;
+  width: 230px !important;
+  margin-left: -8px !important;
+  margin-top: 181px !important;
 }
-.powercord-spotify:hover .avatarWrapper-2yR4wp {
-    border-radius: 10px;
-    height: 200px;
-    width: 240px !important;
-    overflow: hidden;
-    margin-right: 0px !important;
-}
-.powercord-spotify:hover .container-3baos1 {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
-.powercord-spotify:hover .nameTag-3uD-yy, .powercord-spotify:hover .horizontal-1ae9ci {
-    position:  absolute !important;
+.powercord-spotify .container-3baos1 {
+  padding: 0px 8px !important;
+  margin-bottom: 0px !important;
+  margin-top: -3px !important;
 }
 .powercord-spotify:hover .nameTag-3uD-yy {
-    bottom: 99px;
-    width: 224px;
+  margin-left: -230px !important;
+  margin-right: 0px !important;
+  margin-top: 230px !important;
+  z-index: 100;
+  text-align: center !important;
 }
-.powercord-spotify:hover .nameTag-3uD-yy {
-    background: linear-gradient(#18191c00 20%, #18191ca0 50%,#18191c 70%) !important;
-    height: 130px !important;
+.powercord-spotify .spotify-buttons {
+  left: 0px !important;
+  position: absolute !important;
+  z-index: 100000;
+  justify-content: center !important;
+  width: 0px;
+  opacity: 0;
 }
-.powercord-spotify:hover .spotify-title {
-    bottom: 60px;
-    position: absolute;
-    width: 220px;
+.powercord-spotify:hover .spotify-buttons {
+  margin-top: 340px;
+  opacity: 1;
+  width: 150px;
+  left: 45px !important;
+  bottom: 100px;
+  z-index: 100;
 }
-.powercord-spotify:hover .spotify-title .title-eS5yk3 {
-    text-align: center;
+.spotify-extra-controls {
+  z-index: 10000;
+  position: relative;
 }
-.powercord-spotify:hover .spotify-artist {
-    position: absolute;
-    bottom: 45px;
-    width: 220px;
-    text-align: center;
+.powercord-spotify:hover .spotify-extra-controls {
+  height: 16px !important;
+  transform: translateY(150px);
 }
-.powercord-spotify:hover .horizontal-1ae9ci {
-    bottom: 108px;
-    left: 72px;
-}
-.panels-j1Uci_ {
-    background: var(--background-secondary-alt) !important;
-}
-.powercord-spotify + .container-3baos1 {
-    border-top: 1px solid var(--background-modifier-accent);
+.powercord-spotify .spotify-seek-bar-cursor {
+  height: 20px !important;
+  border-radius: 10px !important;
+  border: none !important;
 }
